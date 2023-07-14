@@ -1,0 +1,89 @@
+body {
+  background-image: url("pics/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.hand{
+  
+  width:40%;
+  height:40%;
+  float:right;
+  position: fixed;
+  top: 60%;
+  right: -20%;
+  bottom:0;
+  border-radius: 50%;
+  background-color: transparent;
+  z-index: 0.5px;
+  transform: translate(-50%, -50%);
+  
+}
+
+.name {
+  margin-left:1%;
+}
+.container img{
+  border-radius: 200%;
+  border-color:orange;
+  
+}
+.name h1{
+  color:whitesmoke;
+}
+.name h2{
+  color:white;
+  margin-left: 10%;
+  margin-top: -2%;
+}
+    
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 5%;
+  margin-right: 4%;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul.navbar li a:hover {
+  background-color:#01A9DB;
+  border-radius: 20%;
+}
+.ai h1{
+  color:white;
+  font-size:330%;
+}
+.ai pre{
+  color:white;
+  font-size: 250%;
+  font-style:bold;
+  
+}
+.ai{
+  margin-top: 10%;
+  margin-left: 7%;
+}
+.ai h1:hover {
+  color:rgb(78, 190, 74); 
+  text-shadow:white;
+}
